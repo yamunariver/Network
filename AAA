@@ -1,0 +1,9 @@
+Authentication: The process of verifying the identity of an entity, such as a user or a system, to ensure that they are who they claim to be.
+
+Authorization: The process of determining what actions or resources an authenticated entity is allowed to access or perform. It involves granting or denying permissions based on the entity's identity and privileges.
+
+Auditing: The process of monitoring and recording events and activities on a system or network, including authentication and authorization events, for security and compliance purposes.
+
+Allowing: This term is not commonly used in the context of security and access control. "Authorization" is the more appropriate term.
+
+Accounting: This term often refers to the process of keeping records of user activities, including logins, actions taken, and resource access, for auditing and billing purposes.
