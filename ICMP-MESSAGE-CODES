@@ -1,0 +1,49 @@
+ICMP (Internet Control Message Protocol) messages can have various codes that provide more specific information about the type of ICMP message being sent. ICMP is commonly used for network troubleshooting and error reporting. Here are some common ICMP message types along with their associated codes:
+
+1. **Echo Request (Ping):**
+   - Type: 8
+   - Code: 0
+
+2. **Echo Reply (Ping response):**
+   - Type: 0
+   - Code: 0
+
+3. **Destination Unreachable:**
+   - Type: 3
+   - Codes: Various (e.g., 0, 1, 2, 3, 4)
+
+   The codes indicate the reason for the destination being unreachable. Common codes include:
+   - 0: Network Unreachable
+   - 1: Host Unreachable
+   - 2: Protocol Unreachable
+   - 3: Port Unreachable
+
+4. **Time Exceeded:**
+   - Type: 11
+   - Codes: 0 (Time to Live exceeded in transit) and 1 (Fragment reassembly time exceeded)
+
+5. **Redirect Message:**
+   - Type: 5
+   - Codes: 0 (Redirect Datagram for the Network) and 1 (Redirect Datagram for the Host)
+
+6. **Parameter Problem:**
+   - Type: 12
+   - Codes: 0 (Pointer indicates the error), 1 (Missing a required option), and 2 (Bad length)
+
+7. **Timestamp Request:**
+   - Type: 13
+   - Code: 0
+
+8. **Timestamp Reply (Response to Timestamp Request):**
+   - Type: 14
+   - Code: 0
+
+9. **Information Request (Obsolete):**
+   - Type: 15
+   - Code: 0
+
+10. **Information Reply (Obsolete):**
+    - Type: 16
+    - Code: 0
+
+These are some of the common ICMP message types and codes. Each code provides additional details about the nature of the ICMP message. ICMP is used for various network diagnostic purposes, including ping (Echo Request and Echo Reply), notifying about unreachable destinations, and more. The specific use and interpretation of ICMP messages can vary depending on the context and the network equipment involved.
