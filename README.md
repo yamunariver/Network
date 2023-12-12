@@ -92,6 +92,16 @@ Network latency is the delay in network communication. It shows the time that da
 
 `SMTP stands for Simple Mail Transfer Protocol. It is a communication protocol used for sending and receiving email messages over the Internet.` Mail servers and other message transfer agents (MTAs) use SMTP to send, receive and relay mail messages.
 
+## SSL/TLS
+
+An SSL/TLS certificate is a digital object that allows systems to verify the identity & subsequently establish an encrypted network connection to another system using the Secure Sockets Layer/Transport Layer Security (SSL/TLS) protocol. Certificates are used within a cryptographic system known as a public key infrastructure (PKI). PKI provides a way for one party to establish the identity of another party using certificates if they both trust a third-party - known as a certificate authority. SSL/TLS certificates thus act as digital identity cards to secure network communications, establish the identity of websites over the Internet as well as resources on private networks.
+
+
+
+
+## Single-sign-On
+
+`Single sign-on (SSO) is an authentication solution that allows users to log in to multiple applications and websites with one-time user authentication`
 
 ## CSP
 
@@ -101,5 +111,30 @@ CSP network automation is the process used by communication service providers (C
 ## 5G
 
 5G is the fifth generation of wireless cellular technology, offering higher upload and download speeds, more consistent connections, and improved capacity than previous networks. 5G is much faster and more reliable than the currently popular 4G networks and has the potential to transform the way we use the internet to access applications, social networks, and information. For example, technologies like self-driving cars, advanced gaming applications, and live streaming media that require very reliable, high-speed data connections are set to benefit greatly from 5G connectivity.
+
+## DevSecOps
+
+`DevSecOps is the practice of integrating security testing at every stage of the software development process.` It includes tools and processes that encourage collaboration between developers, security specialists, and operation teams to build software that is both efficient and secure. DevSecOps brings cultural transformation that makes security a shared responsibility for everyone who is building the software.
+
+
+
+## Cryptography
+
+Cryptography is the practice of protecting information through the use of coded algorithms, hashes, and signatures. The information can be at rest (such as a file on a hard drive), in transit (such as electronic communication exchanged between two or more parties), or in use (while computing on data). Cryptography has four primary goals:
+
+Confidentiality – Makes information available to only authorized users.
+Integrity – Ensures that information has not been manipulated.
+Authentication – Confirms the authenticity of information or the identity of a user.
+Non-repudiation – Prevents a user from denying prior commitments or actions.
+Cryptography uses a number of low-level cryptographic algorithms to achieve one or more of these information security goals. These tools include encryption algorithms, digital signature algorithms, hash algorithms, and other functions. This page will describe a few of the most commonly used low-level cryptographic algorithms.
+
+## Cybersecurity
+
+Cybersecurity is the practice of safeguarding computers, networks, software applications, critical systems, and data from potential digital threats. Organizations have the responsibility of securing data to maintain customer trust and meet regulatory compliance. They use cybersecurity measures and tools to protect sensitive data from unauthorized access, as well as prevent disruptions in business operations due to unwanted network activity. Organizations implement cybersecurity by streamlining digital defense amongst people, processes, and technologies. 
+
+## DDOS
+
+A Denial of Service (DoS) attack is a malicious attempt to affect the availability of a targeted system, such as a website or Application, to legitimate end users. Typically, attackers generate large volumes of packets or requests ultimately overwhelming the target system. In case of a Distributed Denial of Service (DDoS) attack, and the attacker uses multiple compromised or controlled sources to generate the attack.
+
 
 
