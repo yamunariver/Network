@@ -1,5 +1,10 @@
 # Network
 
+## Routing
+
+`Routing is the process of path selection in any network.` A computer network is made of many machines, called nodes, and paths or links that connect those nodes. Communication between two nodes in an interconnected network can take place through many different paths. Routing is the process of selecting the best path using some predetermined rules.
+
+
 
 ## CIDR
 
