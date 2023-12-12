@@ -19,3 +19,9 @@ Dynamic DNS (DDNS) is a service that can automatically update DNS records when a
 
 Round-trip time (RTT) in networking is the time it takes to get a response after you initiate a network request. When you interact with an application, like when you click a button, the application sends a request to a remote data server. Then it receives a data response and displays the information to you. RTT is the total time it takes for the request to travel over the network and for the response to travel back. You can typically measure RTT in milliseconds. A lower RTT improves the experience of using an application and makes the application more responsive.
 
+
+## BGP
+
+Border Gateway Protocol (BGP) is a set of rules that determine the best network routes for data transmission on the internet. The internet consists of thousands of private, public, corporate, and government networks linked together through standardized protocols, devices, and communication technologies. When you browse the internet, data travels across multiple networks before reaching its destination. BGP's responsibility is to look at all the available paths that data could travel and select the best route. For instance, when a user in the United States loads an application with origin servers in Europe, BGP makes that communication quick and efficient.
+
+
