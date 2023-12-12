@@ -14,6 +14,12 @@ The Internet Control Message Protocol (ICMP) is a set of communication rules tha
 
 Dynamic DNS (DDNS) is a service that can automatically update DNS records when an IP address changes. Domain names convert network IP addresses to human-readable names for recognition and ease of use
 
+## IPSec
+
+IPSec is a set of communication rules or protocols for setting up secure connections over a network. Internet Protocol (IP) is the common standard that determines how data travels over the internet. IPSec adds encryption and authentication to make the protocol more secure. For example, it scrambles the data at its source and unscrambles it at its destination. It also authenticates the source of the data. 
+
+
+
 
 ## RTT
 
