@@ -39,5 +39,10 @@ Network latency is the delay in network communication. It shows the time that da
 `Load balancing is the method of distributing network traffic equally across a pool of resources that support an application`. Modern applications must process millions of users simultaneously and return the correct text, videos, images, and other data to each user in a fast and reliable manner. To handle such high volumes of traffic, most applications have many resource servers with duplicate data between them. A load balancer is a device that sits between the user and the server group and acts as an invisible facilitator, ensuring that all resource servers are used equally.
 
 
+## CDN
+
+`A content delivery network (CDN) is a network of interconnected servers that speeds up webpage loading for data-heavy applications.` CDN can stand for content delivery network or content distribution network. When a user visits a website, data from that website's server has to travel across the internet to reach the user's computer. If the user is located far from that server, it will take a long time to load a large file, such as a video or website image. Instead, the website content is stored on CDN servers geographically closer to the users and reaches their computers much faster.
+
+
 
 
