@@ -88,3 +88,9 @@ Network latency is the delay in network communication. It shows the time that da
 `In computing, a cache is a high-speed data Storage layer which stores a subset of data,` typically transient in nature, so that future requests for that data are served up faster than is possible by accessing the data’s primary Storage location. Caching allows you to efficiently reuse previously retrieved or Computed data.
 
 
+## SMTP
+
+`SMTP stands for Simple Mail Transfer Protocol. It is a communication protocol used for sending and receiving email messages over the Internet.` Mail servers and other message transfer agents (MTAs) use SMTP to send, receive and relay mail messages.
+
+
+
