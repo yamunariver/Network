@@ -1,5 +1,11 @@
 # Network
 
+## OSI
+
+The Open Systems Interconnection (OSI) model is a conceptual framework that divides network communications functions into seven layers. Sending data over a network is complex because various hardware and software technologies must work cohesively across geographical and political boundaries. The OSI data model provides a universal language for computer networking, so diverse technologies can communicate using standard protocols or rules of communication. Every technology in a specific layer must provide certain capabilities and perform specific functions to be useful in networking. Technologies in the higher layers benefit from abstraction as they can use lower-level technologies without having to worry about underlying implementation details.
+
+
+
 ## Network
 
 `Computer networking refers to interconnected computing devices that can exchange data and share resources with each other.` These networked devices use a system of rules, called communications protocols, to transmit information over physical or wireless technologies. 
