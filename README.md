@@ -98,3 +98,8 @@ Network latency is the delay in network communication. It shows the time that da
 CSP network automation is the process used by communication service providers (CSPs) to automate network management and provisioning for maximum efficiency. Modern organizations seek agility, consistency, and speed in traditional and cloud-centered application management. Network automation achieves these goals by implementing functions like network mapping, resource provisioning, and network testing in the cloud. Communications service providers employ automation as a cost-effective way to meet growing service demand and deliver innovation.
 
 
+## 5G
+
+5G is the fifth generation of wireless cellular technology, offering higher upload and download speeds, more consistent connections, and improved capacity than previous networks. 5G is much faster and more reliable than the currently popular 4G networks and has the potential to transform the way we use the internet to access applications, social networks, and information. For example, technologies like self-driving cars, advanced gaming applications, and live streaming media that require very reliable, high-speed data connections are set to benefit greatly from 5G connectivity.
+
+
