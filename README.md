@@ -1,5 +1,12 @@
 # Network
 
+## Network
+
+`Computer networking refers to interconnected computing devices that can exchange data and share resources with each other.` These networked devices use a system of rules, called communications protocols, to transmit information over physical or wireless technologies. 
+
+
+
+
 ## Routing
 
 `Routing is the process of path selection in any network.` A computer network is made of many machines, called nodes, and paths or links that connect those nodes. Communication between two nodes in an interconnected network can take place through many different paths. Routing is the process of selecting the best path using some predetermined rules.
@@ -22,9 +29,19 @@ Network latency is the delay in network communication. It shows the time that da
 
 `Dynamic DNS (DDNS) is a service that can automatically update DNS records when an IP address changes`. Domain names convert network IP addresses to human-readable names for recognition and ease of use
 
+## DNS
+
+`DNS, or the Domain Name System, translates human readable domain names (for example, www.amazon.com) to machine readable IP addresses (for example, 192.0.2.44).`
+
+
 ## IPSec
 
 `IPSec is a set of communication rules or protocols for setting up secure connections over a network.` Internet Protocol (IP) is the common standard that determines how data travels over the internet. IPSec adds encryption and authentication to make the protocol more secure. For example, it scrambles the data at its source and unscrambles it at its destination. It also authenticates the source of the data. 
+
+## VPN
+
+`A VPN or Virtual Private Network creates a private network connection between devices through the internet.` VPNs are used to safely and anonymously transmit data over public networks. They work by masking user IP addresses and encrypting data so it's unreadable by anyone not authorized to receive it.
+
 
 
 
@@ -37,6 +54,11 @@ Network latency is the delay in network communication. It shows the time that da
 ## BGP
 
 `Border Gateway Protocol (BGP) is a set of rules that determine the best network routes for data transmission on the internet.` The internet consists of thousands of private, public, corporate, and government networks linked together through standardized protocols, devices, and communication technologies. When you browse the internet, data travels across multiple networks before reaching its destination. BGP's responsibility is to look at all the available paths that data could travel and select the best route. For instance, when a user in the United States loads an application with origin servers in Europe, BGP makes that communication quick and efficient.
+
+## RESTfull API
+
+`A RESTful API is an interface that two computer systems use to exchange information securely over the internet.` Most business applications have to communicate with other internal and third-party applications to perform various tasks. For example, to generate monthly payslips, your internal accounts system has to share data with your customer's banking system to automate invoicing and communicate with an internal timesheet application.
+
 
 
 ## Load Balancing
@@ -54,5 +76,9 @@ Network latency is the delay in network communication. It shows the time that da
 `A wide-area network (WAN) is the technology that connects your offices, data centers, cloud applications, and cloud storage together.` It is called a wide-area network because it spans beyond a single building or large campus to include multiple locations spread across a specific geographic area, or even the world. For example, businesses with many international branch offices use a WAN to connect office networks together. The world’s largest WAN is the internet because it is a collection of many international networks that connect to each other. This article focuses on enterprise WANs and their uses and benefits.
 
 
+
+## Caching
+
+`In computing, a cache is a high-speed data Storage layer which stores a subset of data,` typically transient in nature, so that future requests for that data are served up faster than is possible by accessing the data’s primary Storage location. Caching allows you to efficiently reuse previously retrieved or Computed data.
 
 
