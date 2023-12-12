@@ -93,4 +93,8 @@ Network latency is the delay in network communication. It shows the time that da
 `SMTP stands for Simple Mail Transfer Protocol. It is a communication protocol used for sending and receiving email messages over the Internet.` Mail servers and other message transfer agents (MTAs) use SMTP to send, receive and relay mail messages.
 
 
+## CSP
+
+CSP network automation is the process used by communication service providers (CSPs) to automate network management and provisioning for maximum efficiency. Modern organizations seek agility, consistency, and speed in traditional and cloud-centered application management. Network automation achieves these goals by implementing functions like network mapping, resource provisioning, and network testing in the cloud. Communications service providers employ automation as a cost-effective way to meet growing service demand and deliver innovation.
+
 
