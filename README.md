@@ -149,4 +149,7 @@ Network-attached Storage (NAS) is a file-dedicated Storage device that makes dat
 `A database is an electronically stored, systematic collection of data.` It can contain any type of data, including words, numbers, images, videos, and files. You can use software called a database management system (DBMS) to store, retrieve, and edit data. In computer systems, the word database can also refer to any DBMS, to the database system, or to an application associated with the database.
 
 
+## Relational DataBase
+
+A relational database is a collection of data items with pre-defined relationships between them. These items are organized as a set of tables with columns and rows. Tables are used to hold information about the objects to be represented in the database. Each column in a table holds a certain kind of data and a field stores the actual value of an attribute. The rows in the table represent a collection of related values of one object or entity. Each row in a table could be marked with a unique identifier called a primary key, and rows among multiple tables can be made related using foreign keys. This data can be accessed in many different ways without reorganizing the database tables themselves.
 
