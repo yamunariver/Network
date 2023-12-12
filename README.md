@@ -140,5 +140,13 @@ A Denial of Service (DoS) attack is a malicious attempt to affect the availabili
 
 A command line interface (CLI) is a software mechanism you use to interact with your operating system using your keyboard. 
 
+## NAS
+
+Network-attached Storage (NAS) is a file-dedicated Storage device that makes data continuously available for employees to collaborate effectively over a network. Any Computer network has interconnected server machines and client machines that send requests to the servers. NAS devices are specialized servers that handle only data Storage and file-sharing requests. They provide fast, secure, and reliable Storage services to private networks.
+
+## DataBase
+
+`A database is an electronically stored, systematic collection of data.` It can contain any type of data, including words, numbers, images, videos, and files. You can use software called a database management system (DBMS) to store, retrieve, and edit data. In computer systems, the word database can also refer to any DBMS, to the database system, or to an application associated with the database.
+
 
 
