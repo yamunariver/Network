@@ -136,5 +136,9 @@ Cybersecurity is the practice of safeguarding computers, networks, software appl
 
 A Denial of Service (DoS) attack is a malicious attempt to affect the availability of a targeted system, such as a website or Application, to legitimate end users. Typically, attackers generate large volumes of packets or requests ultimately overwhelming the target system. In case of a Distributed Denial of Service (DDoS) attack, and the attacker uses multiple compromised or controlled sources to generate the attack.
 
+## CLI
+
+A command line interface (CLI) is a software mechanism you use to interact with your operating system using your keyboard. 
+
 
 
