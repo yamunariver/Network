@@ -44,5 +44,10 @@ Network latency is the delay in network communication. It shows the time that da
 `A content delivery network (CDN) is a network of interconnected servers that speeds up webpage loading for data-heavy applications.` CDN can stand for content delivery network or content distribution network. When a user visits a website, data from that website's server has to travel across the internet to reach the user's computer. If the user is located far from that server, it will take a long time to load a large file, such as a video or website image. Instead, the website content is stored on CDN servers geographically closer to the users and reaches their computers much faster.
 
 
+## WAN
+
+`A wide-area network (WAN) is the technology that connects your offices, data centers, cloud applications, and cloud storage together.` It is called a wide-area network because it spans beyond a single building or large campus to include multiple locations spread across a specific geographic area, or even the world. For example, businesses with many international branch offices use a WAN to connect office networks together. The world’s largest WAN is the internet because it is a collection of many international networks that connect to each other. This article focuses on enterprise WANs and their uses and benefits.
+
+
 
 
