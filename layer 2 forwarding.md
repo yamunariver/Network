@@ -28,11 +28,11 @@ There are four main message types to be aware of from a layer 2 forwarding persp
 
 `Unicast (known)`     `Forward`
 
-`Unicast (unknow)`    `Flood`   `unknown unicast frames flooded within the VLAN`
+`Unicast (unknow)`    `Flood`       `unknown unicast frames flooded within the VLAN`
 
-`Broadcast`           `Flood`    `same for broadcast frames`
+`Broadcast`           `Flood`        `same for broadcast frames`
 
-`Multicast`           `Flood (by default)`  `Multicast: by default, flood out of all ports except the port frame was received on ( in the same VLAN)`
+`Multicast`           `Flood (by default)`      `Multicast: by default, flood out of all ports except the port frame was received on ( in the same VLAN)`
 
 MAC address table 
 
@@ -40,7 +40,7 @@ MAC address table
  
 `VLAN`    `Mac Address`        `Type`      `Ports`
     
-`All`      `0100.0ccc.cccc`    `STATIC`     `CPU`    `Multicast address for CDP, VTP, DTP, ext`
+`All`      `0100.0ccc.cccc`    `STATIC`     `CPU`        `Multicast address for CDP, VTP, DTP, ext`
 
 For example, this first entry, `0100.0ccc.cccc` is a multicast MAC address used for protocols
 
