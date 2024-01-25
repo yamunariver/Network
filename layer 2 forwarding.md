@@ -45,11 +45,15 @@ MAC address table
 For example, this first entry, `0100.0ccc.cccc` is a multicast MAC address used for protocols such as CDP, VTP, and DTP. In `PORTS` column it says `CPU` This means when a switch receives a frame with this destination MAC, it should send it to the  `CPU` for processing Otherwise it would merely flood the frame, and wouldn't actually look at the information inside the, for example, CDP message
 
 `All`      `0100.0ccc.cccd`    `STATIC`     `CPU`    ` `     `multicast address for PVST` Per-VLAN Spanning-Tree, and this one is used for IEEE standard Spanning-Tree
+
+
 `All`      `0180.c200.0000`     `STATIC`     `CPU`    ` `     `Multicast address for STP`
 
 ### sh mac address-table aging-time
 Global Aging Time:  300
 Vlan    Aging Time
 ----    ----------
+Default aging-time is 300 seconds (5 min) if a MAC address isn't seen by the switch for 5 minutes, it dynamic entry will be removed
+
 
 Switches can only forward frames between ports in the same VLAN
