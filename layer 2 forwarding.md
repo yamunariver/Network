@@ -9,7 +9,11 @@ There are four main message types to be aware of from a layer 2 forwarding persp
 
 `Message Type`        `Action`
 
+
 `Unicast (known)`     `Forward`
+
 `Unicast (unknow)`    `Flood`
+
 `Broadcast`           `Flood`
+
 `Multicast`           `Flood (by default)`
