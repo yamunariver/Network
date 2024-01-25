@@ -42,6 +42,6 @@ MAC address table
     
 `All`      `0100.0ccc.cccc`    `STATIC`     `CPU`    ` `    `Multicast address for CDP, VTP, DTP, ext`
 
-For example, this first entry, `0100.0ccc.cccc` is a multicast MAC address used for protocols
+For example, this first entry, `0100.0ccc.cccc` is a multicast MAC address used for protocols such as CDP, VTP, and DTP. In `PORTS` column it says `CPU` This means when a switch receives a frame with this destination MAC, it should send it to the  `CPU` for processing Otherwise it would merely flood the frame, and wouldn't actually look at the information
 
 Switches can only forward frames between ports in the same VLAN
