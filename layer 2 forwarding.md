@@ -28,7 +28,7 @@ There are four main message types to be aware of from a layer 2 forwarding persp
 
 `Unicast (known)`     `Forward`
 
-`Unicast (unknow)`    `Flood`
+`Unicast (unknow)`    `Flood`   `unknown unicast frames flooded within the VLAN`
 
 `Broadcast`           `Flood`
 
