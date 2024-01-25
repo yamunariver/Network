@@ -12,7 +12,9 @@ Each router interface is a unique broadcast domain; routers do not forward layer
 
 ### Layer 2 forwarding 
 
+Some CCNA students ask why routers need to encapsulate packets within an Ethernet Frame even though routers are supposed to operate `at layer`. 
 
+Routers use Layer 3 information to decide where to forward packets, but that doesn't mean they can ignore layer 2
 
 Layer 2 forwarding refers to the process switches use to forward frames within a lan. 
 
