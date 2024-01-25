@@ -32,7 +32,9 @@ There are four main message types to be aware of from a layer 2 forwarding persp
 
 `Broadcast`           `Flood`    `same for broadcast frames`
 
-`Multicast`           `Flood (by default)`
+`Multicast`           `Flood (by default)`  `Multicast: by default, flood out of all ports except the port frame was received on ( in the same VLAN)`
+
+`multicast will be covered later in the course`
 
 
 Switches can only forward frames between ports in the same VLAN
