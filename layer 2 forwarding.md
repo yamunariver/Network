@@ -40,7 +40,7 @@ MAC address table
  
 `VLAN`    `Mac Address`        `Type`      `Ports`
     
-`All`      `0100.0ccc.cccc`    `STATIC`     `CPU`        `Multicast address for CDP, VTP, DTP, ext`
+`All`      `0100.0ccc.cccc`    `STATIC`     `CPU`    ` `    `Multicast address for CDP, VTP, DTP, ext`
 
 For example, this first entry, `0100.0ccc.cccc` is a multicast MAC address used for protocols
 
