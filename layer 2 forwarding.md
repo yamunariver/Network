@@ -7,7 +7,7 @@ Layer 2 forwarding refers to the process switches use to forward frames within a
 
 There are four main message types to be aware of from a layer 2 forwarding perspective
 
-`Message Type`        `Action`
+`##Message Type`        `##Action`
 
 
 `Unicast (known)`     `Forward`
