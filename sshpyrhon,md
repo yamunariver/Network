@@ -1,0 +1,132 @@
+To create a Python CLI application to log in to Cisco switches using either Telnet or SSH, we'll need to use the following libraries:
+
+1. `pandas` to read the Excel file.
+2. `telnetlib` for Telnet connections.
+3. `paramiko` for SSH connections.
+4. `getpass` to handle passwords securely.
+
+### Installation of Necessary Libraries
+Install the necessary libraries using pip:
+```bash
+pip install pandas paramiko
+```
+
+### Python Script
+Save the following script as `login_script.py`:
+
+```python
+import pandas as pd
+import telnetlib
+import paramiko
+import getpass
+import sys
+
+# Load the CSV file containing the switches data
+CSV_FILE = 'switches.csv'
+
+# Load the switches data into a DataFrame
+switches_df = pd.read_csv(CSV_FILE)
+
+# Get the credentials from the user
+username = input("Enter your username: ")
+password = getpass.getpass("Enter your password: ")
+
+def get_hostname(index):
+    """
+    Fetch the hostname from the CSV file based on the given index.
+    """
+    try:
+        return switches_df.iloc[index]['hostname']
+    except IndexError:
+        return None
+
+def login_telnet(ip, username, password):
+    """
+    Login to the switch using Telnet.
+    """
+    try:
+        tn = telnetlib.Telnet(ip)
+        tn.read_until(b"Username: ")
+        tn.write(username.encode('ascii') + b"\n")
+        tn.read_until(b"Password: ")
+        tn.write(password.encode('ascii') + b"\n")
+        tn.write(b"exit\n")
+        print(f"Logged in to {ip} via Telnet")
+        return True
+    except Exception as e:
+        print(f"Telnet login to {ip} failed: {e}")
+        return False
+
+def login_ssh(ip, username, password):
+    """
+    Login to the switch using SSH.
+    """
+    try:
+        client = paramiko.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        client.connect(ip, username=username, password=password)
+        stdin, stdout, stderr = client.exec_command("exit")
+        stdout.channel.recv_exit_status()
+        client.close()
+        print(f"Logged in to {ip} via SSH")
+        return True
+    except Exception as e:
+        print(f"SSH login to {ip} failed: {e}")
+        return False
+
+def login_switch(index):
+    """
+    Try to login to the switch using Telnet first, then SSH if Telnet fails.
+    """
+    ip = f"10.0.0.{index}"
+    hostname = get_hostname(index)
+    
+    if not hostname:
+        print(f"Hostname not found for index {index}")
+        return
+
+    if login_telnet(ip, username, password):
+        return
+    
+    if login_ssh(ip, username, password):
+        return
+    
+    print(f"Failed to log in to {hostname} ({ip}) via both Telnet and SSH")
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python login_script.py <switch_index>")
+        sys.exit(1)
+    
+    switch_index = int(sys.argv[1])
+    login_switch(switch_index)
+```
+
+### Usage
+1. Convert your Excel file to CSV if it is not already in that format:
+   ```bash
+   xlsx2csv switches.xlsx switches.csv
+   ```
+
+2. Run the script with the switch index as an argument:
+   ```bash
+   python3 login_script.py 43
+   ```
+
+### Explanation
+1. **Read CSV File**:
+   - The script reads the CSV file `switches.csv` containing the switch information.
+
+2. **Get Credentials**:
+   - The script prompts the user to enter the username and password.
+
+3. **Functions**:
+   - `get_hostname(index)`: Fetches the hostname based on the index.
+   - `login_telnet(ip, username, password)`: Attempts to login using Telnet.
+   - `login_ssh(ip, username, password)`: Attempts to login using SSH.
+   - `login_switch(index)`: Tries Telnet first and falls back to SSH if Telnet fails.
+
+4. **Main Logic**:
+   - The script takes the switch index as a command-line argument, fetches the corresponding IP address and hostname, and attempts to log in using Telnet first, then SSH if Telnet fails.
+
+This approach ensures that you can easily manage the login process to your network switches using either Telnet or SSH, depending on which service is available.
